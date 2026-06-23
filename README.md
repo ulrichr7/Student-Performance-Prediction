@@ -9,6 +9,7 @@ At Risk (G3 < 10)
 *The study evaluates multiple machine learning and neural network models using a common evaluation framework.*
 
 **Dataset**
+
 Source: UCI Student Performance Dataset
 Records: 395 students
 Features: 33 attributes
@@ -16,6 +17,7 @@ Domain: Educational Data Mining
 Target: Pass/Fail classification derived from final grade (G3)
 
 **Technologies Used:**
+
 Python
 Pandas
 NumPy
@@ -25,6 +27,7 @@ Matplotlib
 Seaborn
 
 **Data Preprocessing:**
+
 The following preprocessing steps were applied:
 Missing value inspection
 Binary target engineering
@@ -33,6 +36,7 @@ Standardization of numerical features
 Train-test split (80/20)
 
 **Experiments:**
+
 Traditional Machine Learning
 Logistic Regression Baseline
 Logistic Regression (C = 0.5)
@@ -45,6 +49,7 @@ Sequential Neural Network with Dropout
 Functional API Neural Network
 
 **Results:**
+
 Model
 Accuracy
 Precision
@@ -96,6 +101,7 @@ Functional API
 
 
 **Key Findings:**
+
 Traditional machine learning outperformed deep learning.
 Logistic regression achieved the highest ROC-AUC (0.948).
 Tuned Random Forest achieved the highest F1-score (0.902).
@@ -103,6 +109,7 @@ Deep learning models showed mild overfitting.
 The dataset size limited neural network performance.
 
 **How to Run:**
+
 Install dependencies
 pip install -r requirements.txt
 
