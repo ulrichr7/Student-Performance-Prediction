@@ -1,6 +1,7 @@
 **Student Academic Performance Prediction**
 
-*Overview*
+*Overview:*
+
 This project compares traditional machine learning and deep learning approaches for predicting student academic performance using the UCI Student Performance dataset.
 The objective is to classify students as one of the following:
 Pass (G3 ≥ 10)
@@ -14,7 +15,7 @@ Features: 33 attributes
 Domain: Educational Data Mining
 Target: Pass/Fail classification derived from final grade (G3)
 
-**Technologies Used**
+**Technologies Used:**
 Python
 Pandas
 NumPy
@@ -23,7 +24,7 @@ TensorFlow / Keras
 Matplotlib
 Seaborn
 
-**Data Preprocessing**
+**Data Preprocessing:**
 The following preprocessing steps were applied:
 Missing value inspection
 Binary target engineering
@@ -31,7 +32,7 @@ One-hot encoding of categorical variables
 Standardization of numerical features
 Train-test split (80/20)
 
-**Experiments**
+**Experiments:**
 Traditional Machine Learning
 Logistic Regression Baseline
 Logistic Regression (C = 0.5)
@@ -43,7 +44,7 @@ Deep Sequential Neural Network
 Sequential Neural Network with Dropout
 Functional API Neural Network
 
-Results
+**Results:**
 Model
 Accuracy
 Precision
@@ -94,14 +95,14 @@ Functional API
 0.924
 
 
-Key Findings
+**Key Findings:**
 Traditional machine learning outperformed deep learning.
 Logistic regression achieved the highest ROC-AUC (0.948).
 Tuned Random Forest achieved the highest F1-score (0.902).
 Deep learning models showed mild overfitting.
 The dataset size limited neural network performance.
 
-**How to Run**
+**How to Run:**
 Install dependencies
 pip install -r requirements.txt
 
