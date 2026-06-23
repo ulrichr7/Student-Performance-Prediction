@@ -6,47 +6,48 @@ This project compares traditional machine learning and deep learning approaches 
 The objective is to classify students as one of the following:
 Pass (G3 ≥ 10)
 At Risk (G3 < 10)
+
 *The study evaluates multiple machine learning and neural network models using a common evaluation framework.*
 
 **Dataset**
 
-Source: UCI Student Performance Dataset
-Records: 395 students
-Features: 33 attributes
-Domain: Educational Data Mining
-Target: Pass/Fail classification derived from final grade (G3)
+- Source: UCI Student Performance Dataset
+- Records: 395 students
+- Features: 33 attributes
+- Domain: Educational Data Mining
+- Target: Pass/Fail classification derived from final grade (G3)
 
 **Technologies Used:**
 
-Python
-Pandas
-NumPy
-Scikit-learn
-TensorFlow / Keras
-Matplotlib
-Seaborn
+- Python
+- Pandas
+- NumPy
+- Scikit-learn
+- TensorFlow / Keras
+- Matplotlib
+- Seaborn
 
 **Data Preprocessing:**
 
 The following preprocessing steps were applied:
-Missing value inspection
-Binary target engineering
-One-hot encoding of categorical variables
-Standardization of numerical features
-Train-test split (80/20)
+- Missing value inspection
+- Binary target engineering
+- One-hot encoding of categorical variables
+- Standardization of numerical features
+- Train-test split (80/20)
 
 **Experiments:**
 
-Traditional Machine Learning
-Logistic Regression Baseline
-Logistic Regression (C = 0.5)
-Random Forest
-Tuned Random Forest
-Deep Learning
-Sequential Neural Network
-Deep Sequential Neural Network
-Sequential Neural Network with Dropout
-Functional API Neural Network
+- Traditional Machine Learning
+- Logistic Regression Baseline
+- Logistic Regression (C = 0.5)
+- Random Forest
+- Tuned Random Forest
+- Deep Learning
+- Sequential Neural Network
+- Deep Sequential Neural Network
+- Sequential Neural Network with Dropout
+- Functional API Neural Network
 
 **Results:**
 
@@ -110,10 +111,12 @@ The dataset size limited neural network performance.
 
 **How to Run:**
 
-Install dependencies
-pip install -r requirements.txt
+-Install dependencies
+
+-pip install -r requirements.txt
 
 Open the notebook
+
 jupyter notebook
 
 Run all cells sequentially.
